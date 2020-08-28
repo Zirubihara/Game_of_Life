@@ -1,0 +1,28 @@
+type: code
+custom_name: Account
+files:
+- name: src/Account.java
+  visible: true
+  text: // write your class here
+  learner_created: false
+- name: src/Main.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/2984
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:21: error: cannot find symbol
+            Account account = new Account(scanner.nextLong(), scanner.next(), scanner.nextBoolean());
+            ^
+      symbol:   class Account
+      location: class AccountDemo
+    Main.java:21: error: cannot find symbol
+            Account account = new Account(scanner.nextLong(), scanner.next(), scanner.nextBoolean());
+                                  ^
+      symbol:   class Account
+      location: class AccountDemo
+    2 errors
+  time: Tue, 18 Aug 2020 10:02:54 UTC
+record: -1
